@@ -4,8 +4,8 @@ application:
   cloud_region: aws/us-east-2
 databases:
 - type: postgresql
-  version: "11.5"
-  name: my-postgresql-database
+  version: "11.8.0"
+  name: my-postgresql-db
 routers:
 - name: main
   custom_domains:
